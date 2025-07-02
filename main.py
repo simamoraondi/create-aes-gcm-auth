@@ -2,7 +2,7 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 import os
 
-hex_key = "9865a8d227283b9243e52d0f119838e3c40f268f6b0c36a7c494b3e0afc9b65e"
+hex_key = "9865a8d227283b9243e52d0f119838e3c40f268f6b0c36a7c494b3e0afc9b65e" # will be sent through a secure channel, please ask Naata admin for a detailed instruction
 key = bytes.fromhex(hex_key)
 
 transactionId = b"the-trx-id" #transaction id
